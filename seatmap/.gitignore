@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.cowork-temp/
+server/data/
+*.log
+
+# Vite 构建期临时文件
+*.timestamp-*.mjs

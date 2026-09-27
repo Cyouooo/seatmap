@@ -1,0 +1,15 @@
+# ---- 临时目录 ----
+.cowork-temp/
+
+# ---- 打包产物 ----
+*.zip
+
+# ---- 本地数据文件（不入库）----
+*.xlsx
+!seatmap/samples/*.xlsx
+
+# ---- 运行时数据（布局 / 备份 / JWT 密钥，不入库）----
+seatmap/server/data/
+
+# ---- 编辑器 / AI 工具本地数据 ----
+.workbuddy-ai/
